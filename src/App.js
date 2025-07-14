@@ -6,13 +6,13 @@ import Home from './pages/home';
 import Menu from './pages/menu';
 import Business from './pages/business';
 import Contact from './pages/contact';
+import Footer from './components/footer';
 
 function App() {
   return (
-    <section className="main">
+    <div className="main">
       <Router>
         <NavBar />
-        <div>
           <Routes>
             <Route index element={<Home/>}/>
             <Route path="/home" element={<Home />} />
@@ -20,9 +20,9 @@ function App() {
             <Route path="/business" element={<Business />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-        </div>
       </Router>
-    </section>
+      <Footer/>
+    </div>
   );
 }
 

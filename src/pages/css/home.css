@@ -1,15 +1,23 @@
 
-.title{
+.title {
     text-align: center;
-    padding: 250px;
+    min-height: 100vh; /* Make sure it fills the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.title h1{
+.title h1 {
     font-size: 100px;
     color: white;
+    font-family: 'Alegreya Sans', serif;
+
 }
 
-.title h3{
+
+.title h3 {
     font-size: 50px;
     color: white;
+    font-family: 'Alegreya Sans', serif;
 }

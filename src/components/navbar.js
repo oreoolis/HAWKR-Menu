@@ -10,7 +10,6 @@ import logo from '../images/9.png'
 function BasicExample() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" className="navBar bg-body-tertiary">
-      <Container>
         <Navbar.Brand>
           <Link to="/home">
             <img src={logo}
@@ -32,7 +31,6 @@ function BasicExample() {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
     </Navbar>
   );
 }

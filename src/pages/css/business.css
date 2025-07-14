@@ -1,0 +1,54 @@
+.business{
+    padding: 100px  ;
+    margin: 0;
+}
+
+.about h1 {
+    font-family: 'Marcellus SC', serif;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.about p {
+    font-family: 'Alegreya Sans', serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.information {
+    padding: 5rem;
+}
+
+.ourName h1 {
+    font-family: 'Marcellus SC', serif;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.ourName p {
+    font-family: 'Alegreya Sans', serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.mission h1 {
+    font-family: 'Marcellus SC', serif;
+    color: #4CDE73;
+    font-size: 5rem;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.mission p {
+    font-family: 'Alegreya Sans', serif;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+}

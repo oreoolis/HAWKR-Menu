@@ -1,12 +1,15 @@
-// import { CFooter } from "@coreui/react";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = () => {
     return (
         <footer>
-            <div>
-                <span>&copy; 2025 Cafe Del Rey</span>
-            </div>
+            <Container fluid>
+                <Row className="bg-success text-white">
+                    <Col>
+                        <p>@2025 Cafe Del Rey</p>
+                    </Col>
+                </Row>
+            </Container>
         </footer>
     );
 }

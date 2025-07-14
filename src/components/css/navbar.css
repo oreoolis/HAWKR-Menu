@@ -1,20 +1,35 @@
-.navBar{
-    background-color: #61814C !important; /* DO NOT REMOVE IMPORTANT */
-    box-shadow: 0 2px 5px 0 rgba(0,0,0, 0.5);
+.navBar {
+    background-color: #61814C !important;
+    /* DO NOT REMOVE IMPORTANT */
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
 }
 
-.logo{
+.logo {
     width: 200px;
     height: 60px;
     object-fit: cover;
+    position: relative;
+    transition: all 0.5s;
 }
 
-.text-link{
+.logo:hover {
+    transform: scale(1.07);
+}
+
+.text-link {
     color: white;
     text-decoration: none;
-    &:focus, &:hover {
-        font-weight: bold;
-        text-shadow: 0 2px 5px #000000;
-        color: black;
-    }
+    position: relative;
+    transition: all 0.5s;
+}
+
+.text-link:hover {
+    transform: scale(1.07);
+    font-weight: bold;
+    text-shadow: 0 1px 10px #000000;
+    color: black;
+}
+
+.me-auto {
+    font-family: "Inter", sans-serif;
 }

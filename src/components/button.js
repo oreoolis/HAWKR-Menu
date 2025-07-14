@@ -6,7 +6,7 @@ const Button = () => {
     const navigate = useNavigate();
 
     return (
-        <button class="cssbuttons-io" onClick={()=> navigate('/menu')} >
+        <button className="cssbuttons-io" onClick={()=> navigate('/menu')} >
             <span>
                 Explore the Menu
             </span>
