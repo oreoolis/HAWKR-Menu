@@ -9,6 +9,6 @@ This repository contains the components of the website, developed as a Single Pa
 
 Menu item information and images are loaded from <a href = "https://supabase.com/">Supabase</a> and <a href = "https://aws.amazon.com/pm/serv-s3/?trk=858ce643-4e27-400a-9d84-2201c8637b33&sc_channel=ps&ef_id=Cj0KCQjwss3DBhC3ARIsALdgYxPp_udsR2XfFpYjeNzAcrvyX8Z3Uy9N2PdYhKqUIiA-UNaEq94vIZAaAnavEALw_wcB:G:s&s_kwcid=AL!4422!3!717562984443!e!!g!!aws%20s3!21808150791!165834916461&gad_campaignid=21808150791&gbraid=0AAAAADjHtp_vZZDah4oKGZbC2LzCjEpdw&gclid=Cj0KCQjwss3DBhC3ARIsALdgYxPp_udsR2XfFpYjeNzAcrvyX8Z3Uy9N2PdYhKqUIiA-UNaEq94vIZAaAnavEALw_wcB">AWS S3 Cloud Storage</a>.
 
-#Running the Application (Local Host)
+# Running the Application (Local Host)
 - Clone the repository on your machine (git clone).
 - Run 'npm start'.
