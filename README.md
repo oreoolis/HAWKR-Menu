@@ -1,7 +1,7 @@
 # HAWKR-Menu
 HAWKR's Menu Website
 
-- HAWKR is a Philippine startup based in Cebu, where locals are exposed to various Singaporean cuisines through different culinary dishes.
+- <a href = "https://www.facebook.com/hawkr.ph">HAWKR</a> is a Philippine startup based in Cebu, where locals are exposed to various Singaporean cuisines through different culinary dishes.
 - This website aims to streamline the accessibility of the restaurant, allowing customers to view various menu items online, share the website and learn more about the startup, promoting exposure and business.
 
 # Technology Stacks
