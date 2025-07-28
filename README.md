@@ -3,6 +3,7 @@ HAWKR's Menu Website
 
 - <a href = "https://www.facebook.com/hawkr.ph">HAWKR</a> is a Philippine startup based in Cebu, where locals are exposed to various Singaporean cuisines through different culinary dishes.
 - This website aims to streamline the accessibility of the restaurant, allowing customers to view various menu items online, share the website and learn more about the startup, promoting exposure and business.
+- HIFI prototype is available for viewing on <a href = "https://www.figma.com/design/andLiW6tvGiiM7RoGbwfH6/HAWKR-HIFI?node-id=2-37&t=aaQQaxspjY3Qoua0-1">Figma</a>.
 
 # Technology Stacks
 This repository contains the components of the website, developed as a Single Page Application (SPA) in <a href = "https://react.dev/">React.js</a>, utilizing various components from <a href = "https://react-bootstrap.netlify.app/">React Bootstrap</a> and elements from <a href="https://uiverse.io/">UiVerse</a>.
