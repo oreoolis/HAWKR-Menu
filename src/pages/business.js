@@ -3,21 +3,28 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+// IMAGE PATHS
+const introImg1 = process.env.REACT_APP_MASSIMG1;
+const introImg2 = process.env.REACT_APP_MASSIMG2;
+
+
 const Business = () => {
     return (
-        <div className = "business">
+        <div className="business">
             <section className="about">
-                <h1><b style={{color: "#4CDE73"}}>Who</b> are we?</h1>
-                <hr style={{ color: 'white' }} />
+                <h1><b style={{ color: "#4CDE73" }}>Who</b> are we?</h1>
+                <hr />
                 <Container className="information">
                     <Row>
-                        <Col><p>PLACEHOLDER</p></Col>
+                        <Col><img className = "sideImages" src = {introImg1}/></Col>
                         <Col>
                             <p>
-                                <b style={{color: "#4CDE73"}}>HAWKR</b> is a local, family-owned business focused on
+                                <b style={{ color: "#4CDE73" }}>HAWKR</b> is a local, family-owned business focused on
                                 sharing their love for food - specifically Asian-fusion
                                 cuisine and Singaporean food.
-
+                            </p>
+                            <br></br>
+                            <p>
                                 Our family has spent over 10 years living in Singapore,
                                 and has shared our
                                 love for Singaporean food
@@ -29,17 +36,19 @@ const Business = () => {
             </section>
 
             <section className="ourName">
-                <h1>Our <b style={{color: "#4CDE73"}}>Name</b></h1>
-                <hr style={{ color: 'white' }} />
+                <h1>Our <b style={{ color: "#4CDE73" }}>Name</b></h1>
+                <hr />
                 <Container className="information">
                     <Row>
-                        <Col><p>PLACEHOLDER</p></Col>
+                        <Col><img className = "sideImages" src = {introImg2}/></Col>
                         <Col>
                             <p>
-                                The name HAWKR is taken from the term
+                                The name <b style={{ color: "#4CDE73" }}>HAWKR</b> is taken from the term
                                 “hawker center”, which are common outdoor food
                                 courts in Singapore.
-
+                            </p>
+                            <br></br>
+                            <p>
                                 These vibrant food courts are where diverse cuisines
                                 converge. Our goal is just that - to bring the best of
                                 Singaporean street food right to your table, creating
@@ -53,9 +62,7 @@ const Business = () => {
             <section className="mission">
                 <h1>Mission</h1>
                 <p>To introduce Singaporean flavors to the Filipino dining table.</p>
-            </section>
 
-            <section className="mission">
                 <h1>Vision</h1>
                 <p>To become your one-stop destination for all your Singaporean food cravings.</p>
             </section>

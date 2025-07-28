@@ -1,47 +1,67 @@
-.business{
-    padding: 100px  ;
-    margin: 0;
+.business {
+    text-align: center;
+    min-height: 100vh;
+    /* Make sure it fills the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 10px black;
+}
+
+.sideImages{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    box-shadow: 1px 5px 10px black;
+}
+
+.about {
+    padding: 2rem;
 }
 
 .about h1 {
     font-family: 'Marcellus SC', serif;
+    font-weight: 200;
     color: white;
-    font-size: 5rem;
-    text-align: center;
+    font-size: 5.5rem;
     padding: 0.5em;
 }
 
 .about p {
     font-family: 'Alegreya Sans', serif;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
 }
 
 .information {
-    padding: 5rem;
+    padding: 4rem;
 }
 
 .ourName h1 {
     font-family: 'Marcellus SC', serif;
     color: white;
-    font-size: 5rem;
-    text-align: center;
+    font-weight: 200;
+    font-size: 5.5rem;
     padding: 0.5em;
 }
 
 .ourName p {
     font-family: 'Alegreya Sans', serif;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
+}
+
+.mission {
+    padding: 4rem;
 }
 
 .mission h1 {
     font-family: 'Marcellus SC', serif;
     color: #4CDE73;
-    font-size: 5rem;
-    text-align: center;
+    font-size: 5.5rem;
     padding: 0.5em;
 }
 
@@ -49,6 +69,10 @@
     font-family: 'Alegreya Sans', serif;
     color: white;
     font-weight: 500;
-    font-size: 1.2rem;
-    text-align: center;
+    font-size: 1.5rem;
+}
+
+hr {
+    border: 1px solid white;
+    opacity: 1.0;       
 }

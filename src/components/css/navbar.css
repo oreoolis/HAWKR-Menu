@@ -21,6 +21,10 @@
     text-decoration: none;
     position: relative;
     transition: all 0.5s;
+    font-family: 'Alegreya Sans', serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+
 }
 
 .text-link:hover {

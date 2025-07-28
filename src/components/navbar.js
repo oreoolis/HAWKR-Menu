@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/navbar.css'
 
-import logo from '../images/9.png'
+const logo = process.env.REACT_APP_LOGO_URL;
 
 function BasicExample() {
   return (

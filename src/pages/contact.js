@@ -1,34 +1,72 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import GoogleMaps from "../components/maps";
+import { APIProvider } from "@vis.gl/react-google-maps";
 import './css/contact.css';
 
-import Button from '../components/button';
-
-
 const Contact = () => {
+
+    // open links
+
+    const sendEmail = (subject, body) => {
+        const email = 'delreyfoodgroup@gmail.com';
+        const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        window.open(mailtoUrl);
+    }
+
+    const openReview = () => {
+        window.open('https://www.google.com/maps/place/Cafe+Del+Rey/@10.3502708,123.9462777,17z/data=!4m16!1m9!3m8!1s0x33a9986a41f94b6d:0x1d5850f90ba923b3!2sCafe+Del+Rey!8m2!3d10.3502655!4d123.9488526!9m1!1b1!16s%2Fg%2F11fyzbhhhn!3m5!1s0x33a9986a41f94b6d:0x1d5850f90ba923b3!8m2!3d10.3502655!4d123.9488526!16s%2Fg%2F11fyzbhhhn?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D', '_blank'); // Opens in a new tab
+    };
+
+    const openFacebook = () => {
+        window.open("https://www.facebook.com/hawkr.ph", '_blank')
+    };
+
+    const openInstagram = () => {
+        window.open("https://www.instagram.com/hawkr.ph ", '_blank')
+    };
+
     return (
         <div className="contactPage">
-            <section className="about">
+            <section className="title">
                 <h1>Our Flagship Restaurant</h1>
-                <hr style={{ color: 'white' }} />
+                <hr />
+            </section>
+
+            <section className="addressInfo">
                 <Container className="information">
                     <Row>
-                        <Col><p>PLACEHOLDER</p></Col>
                         <Col>
-                            <h3>Cafe Del Rey</h3>
-                            <p>Insular Square Mall, Mandaue, 6014 Cebu, Philippines</p>
+                            <APIProvider apiKey={process.env.REACT_APP_GOOGLEMAPS}>
+                                <GoogleMaps />
+                            </APIProvider>
+                        </Col>
+                        <Col>
+                            <Container className="inner">
+                                <h3>Cafe Del Rey</h3>
+                                <p>Insular Square Mall, Mandaue, 6014 Cebu, Philippines</p>
+                            </Container>
                             <br></br>
-                            <h3>Operating Hours:</h3>
-                            <p>Open Daily</p>
-                            <p>8:00am - 9:00pm</p>
+                            <Container className="inner">
+                                <h3>Operating Hours:</h3>
+                                <p>Open Daily</p>
+                                <p>8:00am - 9:00pm</p>
+                            </Container>
                             <br></br>
-                            <p>Email: delreyfoodgroup@gmail.com</p>
-                            <p>Contact: +63 0960 469 3114 / +63 0908 663 8708</p>
-                            <p>8:00am - 9:00pm</p>
-                            <ul class="wrapper">
-                                <li class="icon facebook">
-                                    <span class="tooltip">Facebook</span>
+                            <Container className="inner">
+                                <h3>Email: </h3>
+                                <p><a onClick={sendEmail} className="email">delreyfoodgroup@gmail.com</a></p>
+                                <i>Click the email to send an email!</i>
+                            </Container>
+                            <br></br>
+                            <Container className="inner">
+                                <h3>Contact: </h3>
+                                <p>+63 0960 469 3114 / +63 0908 663 8708</p>
+                            </Container>
+                            <ul className="wrapper">
+                                <li className="icon facebook" onClick={openFacebook}>
+                                    <span className="tooltip">Facebook</span>
                                     <svg
                                         viewBox="0 0 320 512"
                                         height="1.2em"
@@ -40,8 +78,8 @@ const Contact = () => {
                                         ></path>
                                     </svg>
                                 </li>
-                                <li class="icon instagram">
-                                    <span class="tooltip">Instagram</span>
+                                <li className="icon instagram" onClick={openInstagram}>
+                                    <span className="tooltip">Instagram</span>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         height="1.2em"
@@ -55,7 +93,11 @@ const Contact = () => {
                                     </svg>
                                 </li>
                                 <li>
-                                    <Button />
+                                    <button className="cssbuttons-io" onClick={openReview}>
+                                        <span>
+                                            Leave a review!
+                                        </span>
+                                    </button>
                                 </li>
                             </ul>
                         </Col>

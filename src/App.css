@@ -1,8 +1,7 @@
 .main {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("/src/images/6.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; /* or top, bottom, left, right */
     margin: 0;
     padding: 0;
     height: 100%;

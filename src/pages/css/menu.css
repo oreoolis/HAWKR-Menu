@@ -1,0 +1,29 @@
+
+.menuTitle{
+    padding: 3rem;
+    margin: 0;
+    text-align: center;
+}
+
+.menuTitle h1 {
+  font-family: 'Marcellus SC', serif;
+  font-weight: 200;
+  color: white;
+  font-size: 5rem;
+  padding: 0.5em;
+  text-shadow: 1px 1px 5px black;
+}
+
+hr {
+    border: 1px solid white;    
+}
+
+.pdfViewer{
+    height: 100vh;
+    padding: 1.5em;
+}
+
+.button{
+    text-align: center;
+    padding: 4rem;
+}

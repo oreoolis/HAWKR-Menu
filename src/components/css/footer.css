@@ -1,4 +1,5 @@
-
-.bg-success p{
-    font-family: 'Marcellus SC', serif;
+.label{
+    background-color: #61814C !important;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
 }
