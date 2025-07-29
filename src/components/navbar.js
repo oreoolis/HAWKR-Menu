@@ -1,4 +1,4 @@
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
@@ -12,7 +12,7 @@ function BasicExample() {
     <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" className="navBar bg-body-tertiary">
         <Navbar.Brand>
           <Link to="/home">
-            <img src={logo}
+            <img src={logo} alt = "imgLogo"
               className="logo"
             />
           </Link>

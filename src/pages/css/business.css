@@ -9,15 +9,16 @@
     text-shadow: 1px 1px 10px black;
 }
 
-.sideImages{
+.sideImages {
     width: 500px;
     height: 350px;
+    border-radius: 20px;
     object-fit: cover;
     box-shadow: 1px 5px 10px black;
 }
 
 .about {
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .about h1 {
@@ -25,7 +26,6 @@
     font-weight: 200;
     color: white;
     font-size: 5.5rem;
-    padding: 0.5em;
 }
 
 .about p {
@@ -44,7 +44,6 @@
     color: white;
     font-weight: 200;
     font-size: 5.5rem;
-    padding: 0.5em;
 }
 
 .ourName p {
@@ -69,10 +68,10 @@
     font-family: 'Alegreya Sans', serif;
     color: white;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
-hr {
+.about hr {
     border: 1px solid white;
-    opacity: 1.0;       
+    box-shadow: 1px 1px 5px black;
 }
