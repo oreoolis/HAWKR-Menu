@@ -10,8 +10,10 @@ import Business from './pages/business';
 import Contact from './pages/contact';
 import Footer from './components/footer';
 
+const REACT_APP_BG_URL= "https://hawkr-menuapp-bucket.s3.ap-southeast-1.amazonaws.com/images/6.png";
+
 const bg_style = {
-  backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url(${process.env.REACT_APP_BG_URL})`,
+  backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url(${REACT_APP_BG_URL})`,
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
   margin: 0,

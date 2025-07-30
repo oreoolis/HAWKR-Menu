@@ -4,8 +4,7 @@ import './css/menu.css';
 // import Row from 'react-bootstrap/Row';
 // import Col from 'react-bootstrap/Col';
 
-
-const menuURL = process.env.REACT_APP_MENU_URL;
+const menuURL = "https://hawkr-menuapp-bucket.s3.ap-southeast-1.amazonaws.com/documents/menu.pdf";
 
 const Menu = () => {
     // const openMenu = () => {

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/navbar.css'
 
-const logo = process.env.REACT_APP_LOGO_URL;
+const logo = "https://hawkr-menuapp-bucket.s3.ap-southeast-1.amazonaws.com/images/9.png";
 
 function BasicExample() {
   return (

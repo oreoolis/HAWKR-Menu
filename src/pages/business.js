@@ -4,8 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 // IMAGE PATHS
-const introImg1 = process.env.REACT_APP_MASSIMG1;
-const introImg2 = process.env.REACT_APP_MASSIMG2;
+const introImg1="https://hawkr-menuapp-bucket.s3.ap-southeast-1.amazonaws.com/images/7.png";
+const introImg2="https://hawkr-menuapp-bucket.s3.ap-southeast-1.amazonaws.com/images/10.png";
 
 
 const Business = () => {
