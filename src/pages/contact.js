@@ -51,10 +51,6 @@ const Contact = () => {
                                 <p>8:00am - 9:00pm</p>
                             </Container>
                             <Container className="inner">
-                                <h3>Email: </h3>
-                                <p>delreyfoodgroup@gmail.com</p>
-                            </Container>
-                            <Container className="inner">
                                 <h3>Contact: </h3>
                                 <p>+63 0960 469 3114 / +63 0908 663 8708</p>
                             </Container>

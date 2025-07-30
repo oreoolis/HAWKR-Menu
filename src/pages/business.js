@@ -17,7 +17,7 @@ const Business = () => {
                 <Container className="information">
                     <Row>
                         <Col><img className = "sideImages" src = {introImg1}/></Col>
-                        <Col>
+                        <Col className = "textInfo">
                             <p>
                                 <b style={{ color: "#4CDE73" }}>HAWKR</b> is a local, family-owned business focused on
                                 sharing their love for food - specifically Asian-fusion
@@ -41,7 +41,7 @@ const Business = () => {
                 <Container className="information">
                     <Row>
                         <Col><img className = "sideImages" src = {introImg2}/></Col>
-                        <Col>
+                        <Col className = "textInfo">
                             <p>
                                 The name <b style={{ color: "#4CDE73" }}>HAWKR</b> is taken from the term
                                 “hawker center”, which are common outdoor food

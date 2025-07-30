@@ -75,3 +75,93 @@
     border: 1px solid white;
     box-shadow: 1px 1px 5px black;
 }
+
+/* Mobile Responsive Styles */
+
+/* Tablet styles (768px and below) */
+@media screen and (max-width: 768px) {
+    .business {
+        padding: 1rem;
+    }
+
+    .sideImages {
+        text-align: center;
+        width: 500px;
+        height: 340px;
+    }
+
+    .about,
+    .information,
+    .mission {
+        padding: 1rem 0.5rem;
+    }
+
+    .textInfo {
+        padding: 2rem;
+    }
+
+    .about h1,
+    .ourName h1 {
+        font-size: 3rem;
+    }
+
+    .mission h1 {
+        font-size: 3rem;
+        padding: 0.1em;
+    }
+
+    .about p,
+    .ourName p {
+        font-size: 1rem;
+    }
+
+    .mission p {
+        font-size: 1.1rem;  
+    }
+
+
+}
+
+/* Mobile styles (480px and below) */
+@media screen and (max-width: 480px) {
+
+    .business {
+        padding: 1rem;
+    }
+
+    .sideImages {
+        text-align: center;
+        width: 350px;
+        height: 240px;
+    }
+
+    .about,
+    .information,
+    .mission {
+        padding: 1rem 0.5rem;
+    }
+
+    .textInfo {
+        padding: 1rem;
+    }
+
+    .about h1,
+    .ourName h1 {
+        font-size: 3rem;
+    }
+
+    .mission h1 {
+        font-size: 3rem;
+        padding: 0.1em;
+    }
+
+    .about p,
+    .ourName p {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .mission p {
+        font-size: 1.3rem;
+    }
+}

@@ -4,3 +4,23 @@
   border-radius: 20px;
   box-shadow: 1px 1px 10px black;
 }
+
+@media (max-width: 1024px) {
+  .leaflet-container {
+    height: 400px;
+    width: 400px;
+    max-width: 350px;         
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .leaflet-container {
+    height: 400px;
+    width: 400px;
+    max-width: 350px;         
+    border-radius: 12px;
+  }
+}
+
+

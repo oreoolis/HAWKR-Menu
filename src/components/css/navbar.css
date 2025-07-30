@@ -22,9 +22,9 @@
     position: relative;
     transition: all 0.5s;
     font-family: 'Alegreya Sans', serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 400;
-
+    touch-action: manipulation;
 }
 
 .text-link:hover {
@@ -34,6 +34,16 @@
     color: black;
 }
 
-.me-auto {
-    font-family: "Inter", sans-serif;
+@media screen and (max-width: 768px) {
+    .text-link{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .text-link{
+        font-size: 1rem;
+        padding: 1rem;
+    }
 }

@@ -20,11 +20,6 @@
   text-shadow: 1px 1px 5px black;
 }
 
-hr {
-  border: 1px solid white;
-  box-shadow: 1px 1px 5px black;
-}
-
 .information {
   text-align: left;
   font-family: 'Alegreya Sans', serif;
@@ -228,4 +223,28 @@ a:hover::after {
 
 .cssbuttons-io:active {
   transform: scale(0.95);
+}
+
+
+@media screen and (max-width: 600px) {
+    .title{
+      padding: 1rem;
+    }
+
+    .title h1{
+        font-size: 4rem;
+    }
+
+    .contactPage{
+      padding: 3rem;
+    } 
+
+    .inner{
+      padding: 0.5em;
+      text-align: center;
+    }
+
+    .wrapper{
+      padding: 2rem ;
+    }
 }

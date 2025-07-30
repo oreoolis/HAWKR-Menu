@@ -8,8 +8,8 @@ const Footer = () => {
         <footer>
             <Container fluid>
                 <Row className="bg-success text-white">
-                    <Col className = "label" onClick={redirectMain}>
-                        <b style={{cursor: "pointer", fontFamily: 'Inter'}}>© 2025 Cafe Del Rey</b>
+                    <Col className = "label">
+                        <b onClick={redirectMain} style={{cursor: "pointer", fontFamily: 'Inter'}}>© 2025 Cafe Del Rey</b>
                     </Col>
                 </Row>
             </Container>
