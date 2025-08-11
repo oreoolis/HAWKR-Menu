@@ -1,5 +1,6 @@
 # HAWKR-Menu
 HAWKR's Menu Website
+# View the application on <a href = "https://hawkr-menu.vercel.app">Vercel</a>
 ![App Screenshot](https://reactportfolio-bucket.s3.ap-southeast-1.amazonaws.com/images/clientProjects/hawkrMenuApp/hawkrImg1.png)
 
 - <a href = "https://www.facebook.com/hawkr.ph">HAWKR</a> is a Philippine startup based in Cebu, where locals are exposed to various Singaporean cuisines through different culinary dishes.
@@ -10,5 +11,3 @@ HAWKR's Menu Website
 This repository contains the components of the website, developed as a Single Page Application (SPA) in <a href = "https://react.dev/">React.js</a>, utilizing various components from <a href = "https://react-bootstrap.netlify.app/">React Bootstrap</a> and elements from <a href="https://uiverse.io/">UiVerse</a>.
 
 Menu and images are loaded from <a href = "https://aws.amazon.com/pm/serv-s3/?trk=858ce643-4e27-400a-9d84-2201c8637b33&sc_channel=ps&ef_id=Cj0KCQjwss3DBhC3ARIsALdgYxPp_udsR2XfFpYjeNzAcrvyX8Z3Uy9N2PdYhKqUIiA-UNaEq94vIZAaAnavEALw_wcB:G:s&s_kwcid=AL!4422!3!717562984443!e!!g!!aws%20s3!21808150791!165834916461&gad_campaignid=21808150791&gbraid=0AAAAADjHtp_vZZDah4oKGZbC2LzCjEpdw&gclid=Cj0KCQjwss3DBhC3ARIsALdgYxPp_udsR2XfFpYjeNzAcrvyX8Z3Uy9N2PdYhKqUIiA-UNaEq94vIZAaAnavEALw_wcB">AWS S3 Cloud Storage</a>.
-
-# View the application on <a href = "https://hawkr-menu.vercel.app">Vercel</a>
